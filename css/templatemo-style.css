@@ -19,6 +19,8 @@ body
 #home, 
 #home .fp-slide, 
 #home .fp-tableCell,
+/* Home section with background */
+
 
 #work,
 #work .fp-slide,
@@ -48,7 +50,7 @@ footer .fp-tableCell
 /* start all heading */
 h1,h2,h3,h4,h5
     {
-        color: #ffffff;
+        color: hsl(0, 0%, 99%);
         font-weight: bold;
     }
 /* end all heading */
@@ -180,8 +182,8 @@ h1,h2,h3,h4,h5
 	}
 #home h1
     {
-        border: 2px solid #D43F52;
-        color: #D43F52;
+        /* border: 2px solid #dd4b5f; */
+        color: #c9d42f;
         display: inline-block;
         letter-spacing: 6px;
         padding: 25px 35px;
@@ -206,7 +208,7 @@ h1,h2,h3,h4,h5
     }
 #home .btn:hover
     {
-        background: #D43F52;
+        background: #abad51;
         border-color: transparent;
     }
 /* end home */
@@ -415,6 +417,6 @@ footer hr
     }
 .social-icon li a:hover
     {
-        color: #D43F52;
+        color: #dd4b5f;
     }
 /* end social icon */
