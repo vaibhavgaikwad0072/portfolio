@@ -15,9 +15,9 @@ body
 	font-weight: 400;
 }
 
-/* start all section */
-#home,
-#home .fp-slide,
+/* start all section */#home,
+#home, 
+#home .fp-slide, 
 #home .fp-tableCell,
 
 #work,
